@@ -9,6 +9,10 @@
 
 ## 立即运行
 
+双击项目目录里的 `打开灯影智游.command`，脚本会自动构建并打开本机演示 App。
+
+也可以在终端运行：
+
 ```bash
 ./tools/build_macos_demo.sh
 open build/灯影智游.app
@@ -34,4 +38,3 @@ xcodegen generate
 ## GitHub MCP
 
 本机 Codex 已配置 GitHub MCP，通过 `gh` 的 macOS keyring 登录态获取 token，不在仓库或配置中明文保存令牌。
-
