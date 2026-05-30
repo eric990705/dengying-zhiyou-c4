@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249FED97AA19CB7A6F4C08EA /* LanternDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE5BA7D8C2B924BA26529F /* LanternDetailView.swift */; };
+		26A37C539AB47EC26804E78F /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C2E12CF12CC110D12CCC1 /* RoutesView.swift */; };
+		33DD2129B2E86D0767DE323B /* DengyingZhiyouMacDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A31783335A88AF6DDD76B /* DengyingZhiyouMacDemoApp.swift */; };
+		53AB77E4923301D30320BF35 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22382AAEF46DEAB2136EAD /* DesignSystem.swift */; };
+		5546A0D5A0B09223B944A8DF /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8D66736D511BB1B27B5D2 /* AppViewModel.swift */; };
+		6BA1C30FC007B3D937E67C30 /* DengyingZhiyouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC912AD9478DC3F6308C75F /* DengyingZhiyouApp.swift */; };
+		7EC3B14C03237C849520EDFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFF8FB57C1B96E220CD19D /* ContentView.swift */; };
+		83AE345733BD6FBF06C3F4A2 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8D66736D511BB1B27B5D2 /* AppViewModel.swift */; };
+		8DBCE3AEE7B654DA2B4ECB86 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22382AAEF46DEAB2136EAD /* DesignSystem.swift */; };
+		906756D96CEDC9E55C605D96 /* LanternDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE5BA7D8C2B924BA26529F /* LanternDetailView.swift */; };
+		A058EF889917A625069BA940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFF8FB57C1B96E220CD19D /* ContentView.swift */; };
+		A42DDF0248AC6FA3650A96B7 /* RecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47668C26714A03EE48830559 /* RecognitionView.swift */; };
+		ADCB19350FA2D2922FEE5D17 /* LanternModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B0B26DC55A3C5F84206E /* LanternModels.swift */; };
+		F4ECCAD45989E7446C760435 /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C2E12CF12CC110D12CCC1 /* RoutesView.swift */; };
+		FB10FE2D53C17B661F2FB378 /* RecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47668C26714A03EE48830559 /* RecognitionView.swift */; };
+		FF2C66EDA63DC6E83B69389B /* LanternModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B0B26DC55A3C5F84206E /* LanternModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		247C2E12CF12CC110D12CCC1 /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
+		47668C26714A03EE48830559 /* RecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionView.swift; sourceTree = "<group>"; };
+		4B22382AAEF46DEAB2136EAD /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		6FBE5BA7D8C2B924BA26529F /* LanternDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternDetailView.swift; sourceTree = "<group>"; };
+		8658B0B26DC55A3C5F84206E /* LanternModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternModels.swift; sourceTree = "<group>"; };
+		8AE8D66736D511BB1B27B5D2 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		B507322B656453A117828E79 /* DengyingZhiyouiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DengyingZhiyouiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B667EAA5B052504ECF9013AB /* DengyingZhiyouMacDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DengyingZhiyouMacDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EFF8FB57C1B96E220CD19D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED7A31783335A88AF6DDD76B /* DengyingZhiyouMacDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengyingZhiyouMacDemoApp.swift; sourceTree = "<group>"; };
+		FEC912AD9478DC3F6308C75F /* DengyingZhiyouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengyingZhiyouApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		44EC41DF6A0DAE445D27DCDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B507322B656453A117828E79 /* DengyingZhiyouiOS.app */,
+				B667EAA5B052504ECF9013AB /* DengyingZhiyouMacDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F9152F0A2EC2FF9C1FD4F8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FEC912AD9478DC3F6308C75F /* DengyingZhiyouApp.swift */,
+			);
+			name = iOS;
+			path = app/iOS;
+			sourceTree = "<group>";
+		};
+		A2F32AC3B5555ED11AB4B193 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED7A31783335A88AF6DDD76B /* DengyingZhiyouMacDemoApp.swift */,
+			);
+			name = macOS;
+			path = app/macOS;
+			sourceTree = "<group>";
+		};
+		CABB995734ADD78FF3699133 = {
+			isa = PBXGroup;
+			children = (
+				52F9152F0A2EC2FF9C1FD4F8 /* iOS */,
+				A2F32AC3B5555ED11AB4B193 /* macOS */,
+				FD8A7C2CC318CB5193CFC5B7 /* shared */,
+				44EC41DF6A0DAE445D27DCDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD8A7C2CC318CB5193CFC5B7 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				8AE8D66736D511BB1B27B5D2 /* AppViewModel.swift */,
+				D5EFF8FB57C1B96E220CD19D /* ContentView.swift */,
+				4B22382AAEF46DEAB2136EAD /* DesignSystem.swift */,
+				6FBE5BA7D8C2B924BA26529F /* LanternDetailView.swift */,
+				8658B0B26DC55A3C5F84206E /* LanternModels.swift */,
+				47668C26714A03EE48830559 /* RecognitionView.swift */,
+				247C2E12CF12CC110D12CCC1 /* RoutesView.swift */,
+			);
+			name = shared;
+			path = app/shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86ACE817496783587757FB8F /* DengyingZhiyouiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3D457152960E1CF6186905 /* Build configuration list for PBXNativeTarget "DengyingZhiyouiOS" */;
+			buildPhases = (
+				5031D6E5AF8DD74EFE2F1800 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DengyingZhiyouiOS;
+			packageProductDependencies = (
+			);
+			productName = DengyingZhiyouiOS;
+			productReference = B507322B656453A117828E79 /* DengyingZhiyouiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7123E836020E77A606BEAB /* DengyingZhiyouMacDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C45E139A7804D099B2EAA8 /* Build configuration list for PBXNativeTarget "DengyingZhiyouMacDemo" */;
+			buildPhases = (
+				428272CB65654A645BD3351A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DengyingZhiyouMacDemo;
+			packageProductDependencies = (
+			);
+			productName = DengyingZhiyouMacDemo;
+			productReference = B667EAA5B052504ECF9013AB /* DengyingZhiyouMacDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3C916B79C5D9A5DD4DB14D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 56D63D2CA424F02D9FBDA930 /* Build configuration list for PBXProject "DengyingZhiyou" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CABB995734ADD78FF3699133;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 44EC41DF6A0DAE445D27DCDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7123E836020E77A606BEAB /* DengyingZhiyouMacDemo */,
+				86ACE817496783587757FB8F /* DengyingZhiyouiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428272CB65654A645BD3351A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5546A0D5A0B09223B944A8DF /* AppViewModel.swift in Sources */,
+				A058EF889917A625069BA940 /* ContentView.swift in Sources */,
+				33DD2129B2E86D0767DE323B /* DengyingZhiyouMacDemoApp.swift in Sources */,
+				53AB77E4923301D30320BF35 /* DesignSystem.swift in Sources */,
+				249FED97AA19CB7A6F4C08EA /* LanternDetailView.swift in Sources */,
+				ADCB19350FA2D2922FEE5D17 /* LanternModels.swift in Sources */,
+				FB10FE2D53C17B661F2FB378 /* RecognitionView.swift in Sources */,
+				26A37C539AB47EC26804E78F /* RoutesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5031D6E5AF8DD74EFE2F1800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83AE345733BD6FBF06C3F4A2 /* AppViewModel.swift in Sources */,
+				7EC3B14C03237C849520EDFB /* ContentView.swift in Sources */,
+				6BA1C30FC007B3D937E67C30 /* DengyingZhiyouApp.swift in Sources */,
+				8DBCE3AEE7B654DA2B4ECB86 /* DesignSystem.swift in Sources */,
+				906756D96CEDC9E55C605D96 /* LanternDetailView.swift in Sources */,
+				FF2C66EDA63DC6E83B69389B /* LanternModels.swift in Sources */,
+				A42DDF0248AC6FA3650A96B7 /* RecognitionView.swift in Sources */,
+				F4ECCAD45989E7446C760435 /* RoutesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16D9013A6597886F9A0F6406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "灯影智游";
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于拍摄灯组照片并生成识别导览结果。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择灯组照片并生成识别导览结果。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric990705.dengyingzhiyou;
+				PRODUCT_NAME = "灯影智游";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C1B5A8FEEB121DA6696F27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "灯影智游";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric990705.dengyingzhiyou.macdemo;
+				PRODUCT_NAME = "灯影智游";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A9E11F389D2BAAC982FE35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "灯影智游";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric990705.dengyingzhiyou.macdemo;
+				PRODUCT_NAME = "灯影智游";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36207F56971D29CFB1570232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7C41CE9ACD64B77AE66193F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "灯影智游";
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于拍摄灯组照片并生成识别导览结果。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择灯组照片并生成识别导览结果。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric990705.dengyingzhiyou;
+				PRODUCT_NAME = "灯影智游";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0D1A5FDD32E7B5C80C0D19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D63D2CA424F02D9FBDA930 /* Build configuration list for PBXProject "DengyingZhiyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D1A5FDD32E7B5C80C0D19B /* Debug */,
+				36207F56971D29CFB1570232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94C45E139A7804D099B2EAA8 /* Build configuration list for PBXNativeTarget "DengyingZhiyouMacDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1B5A8FEEB121DA6696F27F /* Debug */,
+				2A9E11F389D2BAAC982FE35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC3D457152960E1CF6186905 /* Build configuration list for PBXNativeTarget "DengyingZhiyouiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C41CE9ACD64B77AE66193F0 /* Debug */,
+				16D9013A6597886F9A0F6406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3C916B79C5D9A5DD4DB14D /* Project object */;
+}

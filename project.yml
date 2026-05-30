@@ -1,0 +1,38 @@
+name: DengyingZhiyou
+options:
+  bundleIdPrefix: com.eric990705
+  deploymentTarget:
+    iOS: "17.0"
+    macOS: "14.0"
+settings:
+  MARKETING_VERSION: "0.1.0"
+  CURRENT_PROJECT_VERSION: "1"
+targets:
+  DengyingZhiyouiOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: app/shared
+      - path: app/iOS
+    resources:
+      - path: app/resources
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.eric990705.dengyingzhiyou
+      PRODUCT_NAME: 灯影智游
+      INFOPLIST_KEY_CFBundleDisplayName: 灯影智游
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
+      INFOPLIST_KEY_NSPhotoLibraryUsageDescription: 用于选择灯组照片并生成识别导览结果。
+      INFOPLIST_KEY_NSCameraUsageDescription: 用于拍摄灯组照片并生成识别导览结果。
+  DengyingZhiyouMacDemo:
+    type: application
+    platform: macOS
+    sources:
+      - path: app/shared
+      - path: app/macOS
+    resources:
+      - path: app/resources
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.eric990705.dengyingzhiyou.macdemo
+      PRODUCT_NAME: 灯影智游
+      INFOPLIST_KEY_CFBundleDisplayName: 灯影智游
+

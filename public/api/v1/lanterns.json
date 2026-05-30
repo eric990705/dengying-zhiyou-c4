@@ -1,0 +1,184 @@
+{
+  "lanterns": [
+    {
+      "id": "dinosaur-gate",
+      "name": "恐龙迎宾灯组",
+      "category": "恐龙主题",
+      "area": "迎宾广场",
+      "image": "zigong_lantern_festival.jpg",
+      "confidenceDemo": 0.94,
+      "meaning": "以自贡恐龙文化作为第一视觉记忆点，把城市地质遗产和夜游灯会入口体验连接起来。",
+      "craft": "大型骨架成型、分区裱糊、内置 LED 轮廓光和局部动态灯效。",
+      "photoTip": "从入口正中略低角度拍摄，能同时收入拱门、灯组层次和人流尺度。",
+      "locationHint": "建议作为入园后的第一个识别点，用于触发游客导览路线。",
+      "tags": ["热门打卡", "亲子研学", "城市名片"]
+    },
+    {
+      "id": "rabbit-new-year",
+      "name": "玉兔迎春灯组",
+      "category": "生肖主题",
+      "area": "民俗年味区",
+      "image": "rabbit_light_set.jpg",
+      "confidenceDemo": 0.91,
+      "meaning": "以生肖兔和春节意象表达团圆、吉庆与新年祝福。",
+      "craft": "彩扎造型与表面彩绘结合，使用暖色灯带突出柔和、亲近的节庆气氛。",
+      "photoTip": "靠近灯组正前方拍摄，保留兔耳轮廓和底部装饰纹样。",
+      "locationHint": "适合与年俗、灯谜、亲子互动路线联动。",
+      "tags": ["生肖", "年俗", "亲子研学"]
+    },
+    {
+      "id": "lantern-corridor",
+      "name": "彩灯长廊",
+      "category": "传统灯廊",
+      "area": "主游线",
+      "image": "colored_lantern_park.jpg",
+      "confidenceDemo": 0.88,
+      "meaning": "通过连续灯廊形成沉浸式通行体验，强化游客从城市空间进入灯会空间的仪式感。",
+      "craft": "重复单元骨架、连续灯笼阵列、色彩渐变和路径照明协同设计。",
+      "photoTip": "站在长廊中心线拍摄，能形成纵深透视和连续灯影。",
+      "locationHint": "适合作为路线过渡点，连接多个主题展区。",
+      "tags": ["路线节点", "传统灯彩", "夜景拍照"]
+    },
+    {
+      "id": "phoenix-dance",
+      "name": "凤舞华彩灯组",
+      "category": "神话瑞兽",
+      "area": "华彩主题区",
+      "image": "zigong_lantern_festival.jpg",
+      "confidenceDemo": 0.86,
+      "meaning": "凤凰意象象征祥瑞、重生和美好愿景，适合承担展区视觉高潮。",
+      "craft": "羽翼采用多层透光材料，结合渐变色光营造羽毛张力。",
+      "photoTip": "侧前方拍摄更容易呈现羽翼展开的层次。",
+      "locationHint": "建议放入非遗工艺路线，强调大型彩灯结构和视觉设计。",
+      "tags": ["神话", "非遗工艺", "视觉焦点"]
+    },
+    {
+      "id": "lotus-water",
+      "name": "荷塘月色灯组",
+      "category": "花鸟景观",
+      "area": "水景展区",
+      "image": "colored_lantern_park.jpg",
+      "confidenceDemo": 0.89,
+      "meaning": "以荷花、月色和水面倒影构成东方诗意场景，强调夜游的安静与流动。",
+      "craft": "花瓣使用半透明材质，水面反光与低位灯源共同形成倒影效果。",
+      "photoTip": "选择水面边缘拍摄，保留倒影和远处灯组。",
+      "locationHint": "适合夜景慢游路线，也适合游客停留休息。",
+      "tags": ["花鸟", "水景", "慢游"]
+    },
+    {
+      "id": "palace-tower",
+      "name": "宫灯楼阁灯组",
+      "category": "传统建筑",
+      "area": "古风建筑区",
+      "image": "zigong_lantern_festival.jpg",
+      "confidenceDemo": 0.9,
+      "meaning": "借传统楼阁、檐角和宫灯元素传达中国古典建筑秩序和礼仪美感。",
+      "craft": "屋檐骨架强调线条转折，窗格和斗拱用分层灯带表现结构。",
+      "photoTip": "从斜前方拍摄，保留檐角和门窗比例。",
+      "locationHint": "适合连接传统纹样、宫灯和建筑美学讲解。",
+      "tags": ["建筑", "传统纹样", "非遗工艺"]
+    },
+    {
+      "id": "dragon-river",
+      "name": "龙腾盐都灯组",
+      "category": "龙文化",
+      "area": "城市主题区",
+      "image": "rabbit_light_set.jpg",
+      "confidenceDemo": 0.87,
+      "meaning": "龙形象与盐都叙事结合，表达地方文化活力和城市品牌传播。",
+      "craft": "龙身采用分节骨架和连续灯带，局部动态光效表现腾跃姿态。",
+      "photoTip": "拍摄时保留龙头和龙身弯曲方向，识别效果更稳定。",
+      "locationHint": "适合放在城市文化路线的核心点位。",
+      "tags": ["龙文化", "城市品牌", "热门打卡"]
+    },
+    {
+      "id": "opera-mask",
+      "name": "川剧脸谱灯组",
+      "category": "巴蜀文化",
+      "area": "巴蜀民俗区",
+      "image": "colored_lantern_park.jpg",
+      "confidenceDemo": 0.84,
+      "meaning": "把川剧脸谱的色彩和性格象征转化为夜间视觉符号，强化四川地方文化识别度。",
+      "craft": "平面彩绘、立体面具骨架和高饱和色光结合，强调图案边界。",
+      "photoTip": "正面拍摄更适合识别脸谱图案和色彩分区。",
+      "locationHint": "适合与非遗表演、研学问答和文化解释联动。",
+      "tags": ["巴蜀", "戏曲", "研学"]
+    },
+    {
+      "id": "silk-road",
+      "name": "丝路花雨灯组",
+      "category": "丝路主题",
+      "area": "交流互鉴区",
+      "image": "zigong_lantern_festival.jpg",
+      "confidenceDemo": 0.82,
+      "meaning": "以丝路意象表现文化交流、商贸往来和多元文明共生。",
+      "craft": "人物、花纹和建筑剪影组合成叙事型灯组，适合长幅观看。",
+      "photoTip": "横向构图能保留更多叙事片段。",
+      "locationHint": "适合放入文化交流主题路线。",
+      "tags": ["丝路", "叙事灯组", "文化交流"]
+    },
+    {
+      "id": "interactive-flower",
+      "name": "互动花海灯组",
+      "category": "互动装置",
+      "area": "互动体验区",
+      "image": "rabbit_light_set.jpg",
+      "confidenceDemo": 0.85,
+      "meaning": "通过人流触发和灯光变化增强游客参与感，让观看行为变成共同生成的体验。",
+      "craft": "传感器、灯带矩阵和模块化花朵外壳组合，适合高频维护。",
+      "photoTip": "等待灯光变化后拍摄，更能体现互动状态。",
+      "locationHint": "适合在路线推荐中作为停留和拍照节点。",
+      "tags": ["互动", "打卡", "体验"]
+    },
+    {
+      "id": "salt-well-memory",
+      "name": "盐井记忆灯组",
+      "category": "盐业文化",
+      "area": "盐都记忆区",
+      "image": "colored_lantern_park.jpg",
+      "confidenceDemo": 0.83,
+      "meaning": "以井架、盐工和井盐生产场景讲述自贡城市形成的产业根基。",
+      "craft": "场景式骨架搭建，辅以人物剪影和暖白光表现历史记忆。",
+      "photoTip": "从侧前方拍摄，保留井架高度和人物关系。",
+      "locationHint": "适合与城市历史、工业遗产和研学路线联动。",
+      "tags": ["盐业", "城市历史", "研学"]
+    },
+    {
+      "id": "dream-whale",
+      "name": "星海鲸梦灯组",
+      "category": "幻想主题",
+      "area": "梦幻光影区",
+      "image": "zigong_lantern_festival.jpg",
+      "confidenceDemo": 0.8,
+      "meaning": "用鲸、星云和流光营造面向年轻游客的梦幻打卡场景。",
+      "craft": "大尺度流线骨架与冷暖色灯效混合，强调空间漂浮感。",
+      "photoTip": "广角拍摄更容易体现鲸身尺度和背景光影。",
+      "locationHint": "适合放入年轻游客热门打卡路线。",
+      "tags": ["幻想", "年轻客群", "热门打卡"]
+    }
+  ],
+  "routes": [
+    {
+      "id": "popular",
+      "name": "热门打卡路线",
+      "duration": "45 分钟",
+      "summary": "从入口视觉点开始，串联高辨识度灯组和拍照停留点。",
+      "lanternIds": ["dinosaur-gate", "dragon-river", "interactive-flower", "dream-whale"]
+    },
+    {
+      "id": "heritage",
+      "name": "非遗工艺路线",
+      "duration": "60 分钟",
+      "summary": "聚焦彩扎骨架、裱糊彩绘、传统纹样和大型灯组结构。",
+      "lanternIds": ["lantern-corridor", "phoenix-dance", "palace-tower", "opera-mask"]
+    },
+    {
+      "id": "study",
+      "name": "亲子研学路线",
+      "duration": "50 分钟",
+      "summary": "围绕生肖、恐龙、盐业和互动装置设计轻量任务卡。",
+      "lanternIds": ["rabbit-new-year", "dinosaur-gate", "salt-well-memory", "interactive-flower"]
+    }
+  ]
+}
+
