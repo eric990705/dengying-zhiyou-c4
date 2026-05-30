@@ -31,6 +31,9 @@ struct ContentView: View {
         }
         .tint(AppColors.red)
         .background(AppColors.surface)
+        .task {
+            await viewModel.refreshFromRemote()
+        }
     }
 }
 
@@ -43,6 +46,7 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 22) {
                     hero
                     quickStats
+                    dataSourceBanner
                     recognitionShortcut
                     hotLanterns
                     routes
@@ -106,6 +110,28 @@ struct HomeView: View {
         }
         .frame(minHeight: 260)
         .clipShape(RoundedRectangle(cornerRadius: 8))
+    }
+
+    private var dataSourceBanner: some View {
+        HStack(spacing: 12) {
+            Image(systemName: viewModel.isRefreshingRemoteData ? "arrow.triangle.2.circlepath" : "externaldrive.connected.to.line.below")
+                .font(.title3)
+                .foregroundStyle(AppColors.jade)
+                .frame(width: 34, height: 34)
+                .background(AppColors.jade.opacity(0.10), in: RoundedRectangle(cornerRadius: 8))
+
+            VStack(alignment: .leading, spacing: 3) {
+                Text("数据源")
+                    .font(.headline)
+                Text(viewModel.dataSourceMessage)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+
+            Spacer()
+        }
+        .padding(14)
+        .background(AppColors.card, in: RoundedRectangle(cornerRadius: 8))
     }
 
     private var quickStats: some View {
@@ -241,4 +267,3 @@ struct RouteRow: View {
         .buttonStyle(.plain)
     }
 }
-
