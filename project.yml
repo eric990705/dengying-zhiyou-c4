@@ -17,6 +17,7 @@ targets:
     resources:
       - path: app/resources
     settings:
+      GENERATE_INFOPLIST_FILE: YES
       PRODUCT_BUNDLE_IDENTIFIER: com.eric990705.dengyingzhiyou
       PRODUCT_NAME: 灯影智游
       INFOPLIST_KEY_CFBundleDisplayName: 灯影智游
@@ -32,7 +33,7 @@ targets:
     resources:
       - path: app/resources
     settings:
+      GENERATE_INFOPLIST_FILE: YES
       PRODUCT_BUNDLE_IDENTIFIER: com.eric990705.dengyingzhiyou.macdemo
       PRODUCT_NAME: 灯影智游
       INFOPLIST_KEY_CFBundleDisplayName: 灯影智游
-

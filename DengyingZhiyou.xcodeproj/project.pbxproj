@@ -10,9 +10,12 @@
 		249FED97AA19CB7A6F4C08EA /* LanternDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE5BA7D8C2B924BA26529F /* LanternDetailView.swift */; };
 		26A37C539AB47EC26804E78F /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C2E12CF12CC110D12CCC1 /* RoutesView.swift */; };
 		33DD2129B2E86D0767DE323B /* DengyingZhiyouMacDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A31783335A88AF6DDD76B /* DengyingZhiyouMacDemoApp.swift */; };
+		4E020C5C0732FB5E27D3FEDC /* PlatformImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C0609573D7091D7581C9F /* PlatformImage.swift */; };
+		4F2BC0F9C61D83637956FF84 /* LanternDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6A6B7B958A072E0E76467 /* LanternDetector.swift */; };
 		53AB77E4923301D30320BF35 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22382AAEF46DEAB2136EAD /* DesignSystem.swift */; };
 		5546A0D5A0B09223B944A8DF /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8D66736D511BB1B27B5D2 /* AppViewModel.swift */; };
 		6BA1C30FC007B3D937E67C30 /* DengyingZhiyouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC912AD9478DC3F6308C75F /* DengyingZhiyouApp.swift */; };
+		7EB5EDF054CF8B0C598FA610 /* PlatformImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C0609573D7091D7581C9F /* PlatformImage.swift */; };
 		7EC3B14C03237C849520EDFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFF8FB57C1B96E220CD19D /* ContentView.swift */; };
 		83AE345733BD6FBF06C3F4A2 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8D66736D511BB1B27B5D2 /* AppViewModel.swift */; };
 		8DBCE3AEE7B654DA2B4ECB86 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22382AAEF46DEAB2136EAD /* DesignSystem.swift */; };
@@ -21,11 +24,13 @@
 		A42DDF0248AC6FA3650A96B7 /* RecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47668C26714A03EE48830559 /* RecognitionView.swift */; };
 		ADCB19350FA2D2922FEE5D17 /* LanternModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B0B26DC55A3C5F84206E /* LanternModels.swift */; };
 		F4ECCAD45989E7446C760435 /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C2E12CF12CC110D12CCC1 /* RoutesView.swift */; };
+		FA013D0DA457E1FBC2ACD76B /* LanternDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6A6B7B958A072E0E76467 /* LanternDetector.swift */; };
 		FB10FE2D53C17B661F2FB378 /* RecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47668C26714A03EE48830559 /* RecognitionView.swift */; };
 		FF2C66EDA63DC6E83B69389B /* LanternModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658B0B26DC55A3C5F84206E /* LanternModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18D6A6B7B958A072E0E76467 /* LanternDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternDetector.swift; sourceTree = "<group>"; };
 		247C2E12CF12CC110D12CCC1 /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
 		47668C26714A03EE48830559 /* RecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionView.swift; sourceTree = "<group>"; };
 		4B22382AAEF46DEAB2136EAD /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		8AE8D66736D511BB1B27B5D2 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		B507322B656453A117828E79 /* DengyingZhiyouiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DengyingZhiyouiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B667EAA5B052504ECF9013AB /* DengyingZhiyouMacDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DengyingZhiyouMacDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01C0609573D7091D7581C9F /* PlatformImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformImage.swift; sourceTree = "<group>"; };
 		D5EFF8FB57C1B96E220CD19D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED7A31783335A88AF6DDD76B /* DengyingZhiyouMacDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengyingZhiyouMacDemoApp.swift; sourceTree = "<group>"; };
 		FEC912AD9478DC3F6308C75F /* DengyingZhiyouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengyingZhiyouApp.swift; sourceTree = "<group>"; };
@@ -84,7 +90,9 @@
 				D5EFF8FB57C1B96E220CD19D /* ContentView.swift */,
 				4B22382AAEF46DEAB2136EAD /* DesignSystem.swift */,
 				6FBE5BA7D8C2B924BA26529F /* LanternDetailView.swift */,
+				18D6A6B7B958A072E0E76467 /* LanternDetector.swift */,
 				8658B0B26DC55A3C5F84206E /* LanternModels.swift */,
+				D01C0609573D7091D7581C9F /* PlatformImage.swift */,
 				47668C26714A03EE48830559 /* RecognitionView.swift */,
 				247C2E12CF12CC110D12CCC1 /* RoutesView.swift */,
 			);
@@ -170,7 +178,9 @@
 				33DD2129B2E86D0767DE323B /* DengyingZhiyouMacDemoApp.swift in Sources */,
 				53AB77E4923301D30320BF35 /* DesignSystem.swift in Sources */,
 				249FED97AA19CB7A6F4C08EA /* LanternDetailView.swift in Sources */,
+				4F2BC0F9C61D83637956FF84 /* LanternDetector.swift in Sources */,
 				ADCB19350FA2D2922FEE5D17 /* LanternModels.swift in Sources */,
+				4E020C5C0732FB5E27D3FEDC /* PlatformImage.swift in Sources */,
 				FB10FE2D53C17B661F2FB378 /* RecognitionView.swift in Sources */,
 				26A37C539AB47EC26804E78F /* RoutesView.swift in Sources */,
 			);
@@ -185,7 +195,9 @@
 				6BA1C30FC007B3D937E67C30 /* DengyingZhiyouApp.swift in Sources */,
 				8DBCE3AEE7B654DA2B4ECB86 /* DesignSystem.swift in Sources */,
 				906756D96CEDC9E55C605D96 /* LanternDetailView.swift in Sources */,
+				FA013D0DA457E1FBC2ACD76B /* LanternDetector.swift in Sources */,
 				FF2C66EDA63DC6E83B69389B /* LanternModels.swift in Sources */,
+				7EB5EDF054CF8B0C598FA610 /* PlatformImage.swift in Sources */,
 				A42DDF0248AC6FA3650A96B7 /* RecognitionView.swift in Sources */,
 				F4ECCAD45989E7446C760435 /* RoutesView.swift in Sources */,
 			);
@@ -199,6 +211,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "灯影智游";
 				INFOPLIST_KEY_NSCameraUsageDescription = "用于拍摄灯组照片并生成识别导览结果。";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择灯组照片并生成识别导览结果。";
@@ -219,6 +232,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "灯影智游";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -235,6 +249,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "灯影智游";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "灯影智游";
 				INFOPLIST_KEY_NSCameraUsageDescription = "用于拍摄灯组照片并生成识别导览结果。";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择灯组照片并生成识别导览结果。";

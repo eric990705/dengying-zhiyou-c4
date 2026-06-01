@@ -1,4 +1,5 @@
 import Foundation
+import CoreGraphics
 
 struct LanternDatabase: Codable {
     let lanterns: [Lantern]
@@ -33,6 +34,9 @@ struct RecognitionResult: Identifiable, Hashable {
     let confidence: Double
     let detectedAt: Date
     let box: DetectionBox
+    let engine: DetectionEngine
+    let detections: [LanternDetection]
+    let sourceImageSize: CGSize
 }
 
 struct DetectionBox: Hashable {
@@ -40,6 +44,21 @@ struct DetectionBox: Hashable {
     let y: Double
     let width: Double
     let height: Double
+}
+
+enum DetectionEngine: String, Hashable {
+    case coreML = "Core ML 模型"
+    case visionSaliency = "Vision 目标显著性"
+    case colorHeuristic = "彩灯色光规则"
+}
+
+struct LanternDetection: Identifiable, Hashable {
+    let id = UUID()
+    let lantern: Lantern
+    let label: String
+    let confidence: Double
+    let box: DetectionBox
+    let engine: DetectionEngine
 }
 
 enum DemoData {
@@ -83,4 +102,3 @@ enum DemoData {
         ]
     )
 }
-

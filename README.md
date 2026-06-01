@@ -1,6 +1,6 @@
 # 灯影智游
 
-面向 C4 移动应用创新赛启迪赛道的 SwiftUI 原生应用原型。
+面向 C4 移动应用创新赛启迪赛道的 SwiftUI 原生应用。
 
 当前仓库包含两套交付：
 
@@ -29,11 +29,30 @@ xcodegen generate
 ## 当前范围
 
 - 首页运营概览
-- 拍照识别演示流程
+- iOS 相机/相册图片输入
+- Vision/Core ML 目标检测管线
+- 灯组目标框、置信度和多候选结果
 - 灯组知识卡片
 - 主题路线导览
 - 识别反馈表单
 - 本地灯组知识库 JSON
+
+## 目标检测模块
+
+检测入口在 `app/shared/LanternDetector.swift`：
+
+- 优先加载 App Bundle 中的 `LanternDetector.mlmodelc`，通过 `VNCoreMLRequest` 执行目标检测。
+- 当前仓库未放训练权重时，会自动回退到 `VNGenerateObjectnessBasedSaliencyImageRequest`，仍然能对真实图片输出候选目标框。
+- 检测结果统一映射为 `LanternDetection`，包含灯组、标签、置信度、检测框和检测引擎。
+- iOS 页面支持“拍照检测”“相册检测”“样张检测”；macOS 演示支持“导入图片”“样张检测”。
+
+后续训练好自贡彩灯检测模型后，把 `LanternDetector.mlmodel` 放进 `app/resources`，重新运行：
+
+```bash
+xcodegen generate
+```
+
+Xcode 会在构建时编译成 `LanternDetector.mlmodelc`，App 会自动走 Core ML 模型分支。
 
 ## GitHub MCP
 

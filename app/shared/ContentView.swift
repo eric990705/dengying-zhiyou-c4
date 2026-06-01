@@ -138,13 +138,13 @@ struct HomeView: View {
         HStack(spacing: 12) {
             StatCard(value: "\(viewModel.database.lanterns.count)", label: "样板灯组")
             StatCard(value: "3", label: "主题路线")
-            StatCard(value: "2s", label: "演示返回")
+            StatCard(value: "Vision", label: "目标检测")
         }
     }
 
     private var recognitionShortcut: some View {
         Button {
-            viewModel.runDemoRecognition()
+            viewModel.runSampleDetection()
         } label: {
             HStack(spacing: 14) {
                 Image(systemName: "camera.viewfinder")
@@ -154,7 +154,7 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 4) {
                     Text("开始拍照识别")
                         .font(.headline)
-                    Text("演示模式会返回灯组名称、置信度和知识卡片")
+                    Text("相机/相册输入后输出目标框、置信度和知识卡片")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }

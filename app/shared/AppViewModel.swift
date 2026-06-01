@@ -4,11 +4,14 @@ import SwiftUI
 @MainActor
 final class AppViewModel: ObservableObject {
     private let remoteDataURL = URL(string: "https://eric990705.github.io/dengying-zhiyou-c4/api/v1/lanterns.json")
+    private let detector = LanternDetector()
 
     @Published var database: LanternDatabase
     @Published var selectedLantern: Lantern?
+    @Published var selectedImage: PlatformImage?
     @Published var recognitionResult: RecognitionResult?
     @Published var isRecognizing = false
+    @Published var recognitionMessage = "可拍摄或导入自贡彩灯照片，系统会用 Vision/Core ML 输出目标框和知识卡片。"
     @Published var feedbackMessage = ""
     @Published var feedbackSubmitted = false
     @Published var selectedRoute: LanternRoute?
@@ -58,28 +61,43 @@ final class AppViewModel: ObservableObject {
         }
     }
 
-    func runDemoRecognition(preferred lantern: Lantern? = nil) {
+    func runSampleDetection(preferred lantern: Lantern? = nil) {
+        let candidate = lantern ?? selectedLantern ?? database.lanterns.first
+        guard let candidate else {
+            return
+        }
+        let image = PlatformImage.sampleLanternImage(for: candidate)
+        runDetection(on: image, preferred: candidate)
+    }
+
+    func runDetection(on image: PlatformImage, preferred lantern: Lantern? = nil) {
         isRecognizing = true
         feedbackSubmitted = false
         feedbackMessage = ""
-
-        let candidate = lantern ?? selectedLantern ?? database.lanterns.first
-        guard let candidate else {
-            isRecognizing = false
-            return
-        }
+        recognitionMessage = "正在运行目标检测..."
+        selectedImage = image
+        recognitionResult = nil
 
         Task {
-            try? await Task.sleep(nanoseconds: 650_000_000)
-            recognitionResult = RecognitionResult(
-                lantern: candidate,
-                confidence: candidate.confidenceDemo,
-                detectedAt: Date(),
-                box: DetectionBox(x: 0.16, y: 0.18, width: 0.68, height: 0.52)
-            )
-            selectedLantern = candidate
+            do {
+                let result = try await detector.detect(image: image, database: database, preferredLantern: lantern ?? selectedLantern)
+                recognitionResult = result
+                selectedLantern = result.lantern
+                recognitionMessage = "\(result.engine.rawValue) 已输出 \(result.detections.count) 个候选目标。"
+            } catch {
+                recognitionMessage = (error as? LocalizedError)?.errorDescription ?? "目标检测失败，请换一张更清晰的照片。"
+            }
             isRecognizing = false
         }
+    }
+
+    func resetRecognition() {
+        selectedImage = nil
+        recognitionResult = nil
+        isRecognizing = false
+        feedbackSubmitted = false
+        feedbackMessage = ""
+        recognitionMessage = "可拍摄或导入自贡彩灯照片，系统会用 Vision/Core ML 输出目标框和知识卡片。"
     }
 
     func submitFeedback(isAccurate: Bool) {
